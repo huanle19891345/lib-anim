@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="382dp"
+    android:viewportWidth="150"
+    android:viewportHeight="192">
+
+    <!-- 第一条横线 -->
+    <path
+        android:name="bar"
+        android:pathData="M0,23 L140,23"
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="square" />
+
+
+    <!--向上的圆弧 -->
+    <path
+        android:name="round"
+        android:pathData="M138 23 A 10 10 0 1 0 128 13 "
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="round"/>
+
+    <!-- 对号-->
+    <path
+        android:name="right"
+        android:pathData="M128 13  l 3 3 l 5 -6"
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="round"/>
+
+    <!--向下的圆弧 -->
+
+    <path
+        android:name="round2"
+        android:pathData="M138 23 A 10 10 0 1 1 138 43 "
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="round"/>
+
+    <!-- 第二条横线-->
+    <path
+        android:name="bar2"
+        android:pathData="M140,43 L0,43"
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="square" />
+
+    <group android:name="group" android:rotation="20" android:scaleX="0">
+        <path
+            android:fillColor="#fff70000"
+            android:pathData=" M50,50 a10,5 0 1 0 1 0" />
+        <path
+            android:fillColor="#FFF22420"
+            android:pathData=" M50,50 a10,5 0 1 1 1 0" />
+        <path
+            android:fillColor="#fff57000"
+            android:pathData=" M50,50 a10,5 0 1 1 1 1" />
+        <path
+            android:fillColor="#FF323243"
+            android:pathData=" M50,50 a10,5 0 1 0 0 1" />
+    </group>
+
+    <path
+        android:pathData="M0,100 L150,300"
+        android:strokeColor="#FF323243"
+        android:strokeWidth="1"/>
+
+    <path
+        android:name="bar2"
+        android:pathData="M150,43 l0,43"
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="square" />
+
+    <path
+        android:name="square"
+        android:fillColor="#000000"
+        android:pathData="M100,100 L400,100 L400,400 L100,400 z"/>
+
+
+</vector>
